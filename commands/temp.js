@@ -9,8 +9,6 @@ const axios = require('axios');
 const temp = {
 		action: (command) => {
 
-			console.log(command.content.indexOf("!temp"));
-
 			if (command.content.indexOf("!temp") != -1) {
 
 				command.content = command.content.replace('!temp ', '');
