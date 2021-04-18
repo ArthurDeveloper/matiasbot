@@ -5,7 +5,11 @@ const Matias = require('./matias');
 
 const emojis = require('./emojis');
 
-bot.login('ODI2MjMwNjIyNTI2NzY3MTI0.YGJdOw.ZOHTGueH7yg5f_YB6KazugSMNYs');
+const fs = require('fs');
+
+const key = fs.readFileSync('chave.txt', 'utf8');
+
+bot.login(key);
 
 bot.on('ready', () => {
 	console.log("bot tá on B)");
