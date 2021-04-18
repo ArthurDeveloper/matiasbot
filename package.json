@@ -1,0 +1,23 @@
+{
+  "name": "kidbot",
+  "version": "1.0.0",
+  "description": "Bot pra discord para as pessoas do sever conversarem e para utilização de comandos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+  "keywords": [ 
+    "Bot",
+    "discord",
+    "Bot pra discord",
+    "server",
+    "Bot pra teste"
+  ], 
+  "author": "Arthur Dev",
+  "license": "MIT", 
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1" 
+  }
+}
