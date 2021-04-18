@@ -7,9 +7,7 @@ const emojis = require('./emojis');
 
 const fs = require('fs');
 
-const key = fs.readFileSync('chave.txt', 'utf8');
-
-bot.login(key);
+bot.login('ODI2MjMwNjIyNTI2NzY3MTI0.YGJdOw.hojUXeurOf4-M3TOmA1D1G0LlwI');
 
 bot.on('ready', () => {
 	console.log("bot tá on B)");
