@@ -7,7 +7,7 @@ const emojis = require('./emojis');
 
 const fs = require('fs');
 
-bot.login('ODI2MjMwNjIyNTI2NzY3MTI0.YGJdOw.hojUXeurOf4-M3TOmA1D1G0LlwI'); 
+bot.login('ODI2MjMwNjIyNTI2NzY3MTI0.YGJdOw.hojUXeurOf4-M3TOmA1D1G0LlwI'); // Tbh I don't care if someone hack this
 
 bot.on('ready', () => {
 	console.log("bot tá on B)");
